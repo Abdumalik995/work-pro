@@ -24,9 +24,12 @@ header nav a {
 	color: #000;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff !important;
+    color: crimson!important;
     font-weight: bold;
     background-color: #ff5722 !important;
+}
+header nav ul li a:hover {
+	color: crimson;
 }
 /*Hero area*/
 #hero {
@@ -39,11 +42,34 @@ header nav a {
 
 #pro {
 	width: 100%;
-	height: 600px;
+	height: 630px;
 	background: transparent;
 }
 .oilAc {
 	height: 7px;
 	
 }
+#about {
+	width: 100%;
+	height: 400px;
+	background: url(../../img/mr.jpg) no-repeat center;
+	background-size: cover;
 
+}
+#foot {
+	background: #1a1b1d;
+}
+#foot div div p {
+	margin: 0;
+
+}
+#foot h5 {
+	color: orange;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.fot {
+	height: 50px;
+	line-height: 50px;
+
+}
