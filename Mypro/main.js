@@ -4,8 +4,7 @@ $(document).ready(function() {
 
 	$('#targ div').click(function() {
 		let bos = $(this).attr("data-target");
-		console.log('ishla');
-
+		
 		if(bos == "#post1") {
 			$('#fikr #post1').css('display','block');
 			$('#fikr #post1').siblings().css('display','none');
@@ -33,6 +32,10 @@ $(document).ready(function() {
 			$('#targ .add').removeClass('add');
 			$(this).addClass('add');
 		} else {}
+	});
+
+	$('#izla').click(function() {
+		$('#naydi').fadeIn('fast');
 	});
 
 	

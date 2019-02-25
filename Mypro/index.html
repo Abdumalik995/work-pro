@@ -16,23 +16,23 @@
 		
 			<nav class="navbar navbar-expand-md p-0 d-flex justify-content-between">
 				<div class="text-white text-center m-0" id="logo"><p class="font-weight-bold">ENEOS</p></div>
-				<button class="navbar-toggler display-1 font-bold text-white mr-3 ml-sm-0" data-target="#navbar" data-toggle="collapse">
+				<button class="navbar-toggler text-dark mr-1 ml-sm-0" data-target="#navbar" data-toggle="collapse" aria-expanded="true">
 					<i class="fas fa-bars"></i>
 				</button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbar">
+				<div class="navbar-collapse justify-content-end collapse show " id="navbar">
 					<div class="navbar-nav">
 						<ul class="navbar-nav nav-pills list-unstyled text-center" id="my">
-							<li class="nav-item mr-5"><a href="#about" class="nav-link font-weight-bold">ABOUT </a></li>
-							<li class="nav-item mr-5"><a href="#products" class="nav-link font-weight-bold">PRODUCTS </a></li>
-							<li class="nav-item mr-5"><a href="#technology" class="nav-link font-weight-bold">TECHNOLOGY </a></li>
-							<li class="nav-item mr-5 dropdown"><a href="#" class="nav-link font-weight-bold dropdown-toggle"  data-toggle="dropdown">NEWS </a>
+							<li class="nav-item mr-2 mr-md-5"><a href="#about" class="nav-link font-weight-bold">ABOUT </a></li>
+							<li class="nav-item mr-2 mr-md-5"><a href="#products" class="nav-link font-weight-bold">PRODUCTS </a></li>
+							<li class="nav-item mr-2 mr-md-5"><a href="#technology" class="nav-link font-weight-bold">TECHNOLOGY </a></li>
+							<li class="nav-item mr-2 mr-md-5 dropdown"><a href="#" class="nav-link font-weight-bold dropdown-toggle"  data-toggle="dropdown">NEWS </a>
 								<div class="dropdown-menu bg-dark">
 								    <a class="dropdown-item bg-dark text-white small font-weight-bold" href="#">EVENTS</a>
 								    <a class="dropdown-item bg-dark text-white small font-weight-bold" href="#">SPONSORSHIP</a>
 								    
 								</div>
 							</li>			
-							<li class="nav-item mr-5"><a href="#contact" class="nav-link font-weight-bold">CONTACT US</a></li>		
+							<li class="nav-item mr-2 mr-md-5"><a href="#contact" class="nav-link font-weight-bold">CONTACT US</a></li>		
 							<li class="nav-item border-left"><a href="#search" class="nav-link font-weight-bold">
 								<i class="fas fa-search mx-4 text-danger"></i></a></li>		
 							<li class="nav-item border-left mr-3">
@@ -64,8 +64,8 @@
 		</div>
 	</div>
 	<section class="p-5" id="hero">
-		<div class="container mt-5 w-50 ml-0">
-				<div class="p-1 p-md-3" id="fikr">					
+		<div class="mt-5 w-50 ml-0">
+				<div class="p-1 p-md-3" id="fikr">	
 					
 						<div class="fade show" id="post1">							
 							<h1 class="display-4 pt-md-5 font-weight-bold">FEATURED POST</h1>
@@ -89,7 +89,7 @@
 						</div>
 				
 					<div class="d-flex justify-content-end" id="targ">
-						<div data-target="#post1" style="" class="active"></div>
+						<div data-target="#post1" style="" class="add"></div>
 						<div data-target="#post2" style=""></div>
 						<div data-target="#post3" style=""></div>
 						<div data-target="#post4" style=""></div>
@@ -100,12 +100,13 @@
 			</div>	
 	</section>
 	<section class="py-5" id="pro">
-		<div class="container py-5 text-center">
-			<div class="d-flex justify-content-between">
+		<div class="m-auto px-md-5 py-5 text-center">
+			<div class="d-flex justify-content-between px-md-5">
 				<div class="card border-0" style="width: 20rem;">
   					<img src="../img/man.jpg" class="card-img-top" alt="man eneos">
   					<div class="card-body bg-dark">
   						<h3>Product</h3>
+  						
     					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
   					</div>
   					<div class="w-100 bg-warning oilAc"></div>
@@ -127,12 +128,12 @@
   					<div class="w-100 bg-warning oilAc"></div>
 				</div>
 			</div>
-			<button class="btn btn-danger mt-5 mb-4">SEE ALL PRODUCTS</button>
+			<button class="btn btn-danger mt-5 mb-5">SEE ALL PRODUCTS</button>
 		</div>
 	</section>
-	<!--  -->
+	<!-- Started here home Page -->
 	<section class="p-5" id="home">
-		<div class="container">
+		<div class="m-auto">
 			<div class="w-50">
 				<h1 class="font-weight-bold mt-5">About Us</h1>
 				<p class="w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum. Consectetur aut soluta eveniet praesentium magni laborum molestias placeat nesciunt, totam dolore?</p>
@@ -140,10 +141,10 @@
 			</div>
 		</div>
 	</section>
-	<!--  --> 
-	<section class="" data-target="#aboutColl" data-toggle="collapse" id="about">
-		<div class="px-5" id="abo">
-			<div class="w-50 pl-5 pt-5">
+	<!-- Id about here started --> 
+	<section class="" id="about">
+		<div class="px-5" data-target="#aboutColl" data-toggle="collapse" id="abo">
+			<div class="w-50 pt-5">
 				<h1 class="font-weight-bold mt-5">About Us</h1>
 				<p class=""></p>
 			</div>
@@ -212,19 +213,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="container py-5">
+				<div class="m-auto py-5">
 					<p>View other article</p>
 					<div class="d-flex justify-content-between mt-5">
 						<div class="card border-0" style="width: 20rem;">
 							<img src="../img/bc.jpg" class="card-img-top">
-							<div class="card-body bg-dark">
-		  						<h3>Article</h3>
-		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
-		  					</div>
-		  					<div class="w-100 bg-warning oilAc"></div>
-						</div>
-						<div class="card border-0" style="width: 20rem;">
-							<img src="../img/encar.jpg" class="card-img-top">
 							<div class="card-body bg-dark">
 		  						<h3>Article</h3>
 		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
@@ -239,15 +232,23 @@
 		  					</div>
 		  					<div class="w-100 bg-warning oilAc"></div>
 						</div>
+						<div class="card border-0" style="width: 20rem;">
+							<img src="../img/encar.jpg" class="card-img-top">
+							<div class="card-body bg-dark">
+		  						<h3>Article</h3>
+		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
+		  					</div>
+		  					<div class="w-100 bg-warning oilAc"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 			
 	</section>
 	<!--  -->
-	<section class=""  data-target="#coll" data-toggle="collapse" id="products">
-		<div id="product">
-			<div class="container pt-5">
+	<section class="" id="products">
+		<div data-target="#coll" data-toggle="collapse" id="product">
+			<div class="m-auto pt-5 px-md-5">
 				<h1 class="font-weight-bold my-5">Product X</h1>
 				<div class="pt-5">
 					
@@ -353,9 +354,9 @@
 		
 		</div>
 	</section>
-	<section class="pt-5" data-target="#technoColl" data-toggle="collapse" id="technology">
-		<div class="px-5" id="techno">
-			<div class="w-50 px-5">
+	<section class="pt-5" id="technology">
+		<div class="px-5" data-target="#technoColl" data-toggle="collapse"  aria-expanded="false" id="techno">
+			<div class="w-50">
 				<h1 class="font-weight-bold my-5">Technology</h1>
 				<p class=""></p>
 			</div>
@@ -424,19 +425,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="container py-5">
+				<div class="m-auto py-5">
 					<p>View other article</p>
 					<div class="d-flex justify-content-between mt-5">
 						<div class="card border-0" style="width: 20rem;">
 							<img src="../img/bc.jpg" class="card-img-top">
-							<div class="card-body bg-dark">
-		  						<h3>Article</h3>
-		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
-		  					</div>
-		  					<div class="w-100 bg-warning oilAc"></div>
-						</div>
-						<div class="card border-0" style="width: 20rem;">
-							<img src="../img/encar.jpg" class="card-img-top">
 							<div class="card-body bg-dark">
 		  						<h3>Article</h3>
 		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
@@ -451,13 +444,73 @@
 		  					</div>
 		  					<div class="w-100 bg-warning oilAc"></div>
 						</div>
+						<div class="card border-0" style="width: 20rem;">
+							<img src="../img/encar.jpg" class="card-img-top">
+							<div class="card-body bg-dark">
+		  						<h3>Article</h3>
+		    					<p class="card-text small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam veritatis delectus earum.</p>
+		  					</div>
+		  					<div class="w-100 bg-warning oilAc"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 			
 	</section>
-	<section class="w-100 pt-5 border-top border-dark" id="foot">
-		<div class="container d-flex justify-content-between text-light mb-5">
+	<section class="" id="search">
+		<div class="p-5" id="ser">
+			<div class="px-5">
+				<h1 class="font-weight-bold my-5">Search</h1>
+			</div>
+		</div>
+		<div class="w-100 bg-dark pt-2" style="height: 60px;">
+			<div class="input-group">
+  				<input type="text" class="form-control bg-transparent border-0 px-5 text-white" placeholder="ENEOS...">
+  				<div class="input-group-append">
+    			<button class="btn btn-outline-dark text-warning border-left px-4 m-0" type="button" id="izla"><i class="fas fa-search" style="font-size: 30px"></i></button>
+  				</div>
+			</div>
+		</div>
+		<div class="w-100 bg-warning mb-5" style="height: 8px"></div>
+		<div class="m-auto px-md-5 pt-5" id="naydi" style="display: none;">
+			<h6 class="mb-5">Result search for <b class="text-warning">Eneos</b></h6>
+			<h5 class="font-weight-bold mb-3">ENEOS People: Specialty-Z</h5>
+			<p>Best Quote: '(When using ENEOS) we've been pretty happy with seeing title wear on engines thet are pushed to the limit.'</p>
+			<p>'In high school, I wanted[...]'</p>
+			<button class="btn btn-warning text-white rounded-0 my-5">READ MORE</button>
+			<h5 class="font-weight-bold mb-3">ENEOS People: Specialty-Z</h5>
+			<p>Best Quote: '(When using ENEOS) we've been pretty happy with seeing title wear on engines thet are pushed to the limit.'</p>
+			<p>'In high school, I wanted[...]'</p>
+			<button class="btn btn-warning text-white rounded-0 my-5">READ MORE</button>
+			<h5 class="font-weight-bold mb-3">ENEOS People: Specialty-Z</h5>
+			<p>Best Quote: '(When using ENEOS) we've been pretty happy with seeing title wear on engines thet are pushed to the limit.'</p>
+			<p>'In high school, I wanted[...]'</p>
+			<button class="btn btn-warning text-white rounded-0 my-5">READ MORE</button>
+		</div>
+		<div class="border-top border-dark">
+			<nav aria-label="Page navigation example" class="bg-transparent">
+			 	<ul class="pagination justify-content-center m-0">
+			    	<li class="page-item">
+			      		<a class="page-link py-1 py-md-2 py-lg-3 px-1 px-md-3 px-lg-4 border-left-0" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+			    	</li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4 add" href="#">1</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">2</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">3</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">4</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">5</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">6</a></li>
+			    	<li class="page-item"><a class="page-link py-1 py-md-2 py-lg-3 px-2 px-md-3 px-lg-4" href="#">7</a></li>
+			    	<li class="page-item">
+			      		<a class="page-link py-1 py-md-2 py-lg-3 px-1 px-md-3 px-lg-4 border-right-0" href="#">Next</a>
+			    	</li>
+			  	</ul>
+			</nav>
+		</div>
+	</section>
+	
+</main>
+<footer class="w-100 pt-5 border-top border-dark" id="foot">
+		<div class="m-auto px-md-5 pt-3 pb-2 d-flex justify-content-between text-light mb-5">
 			<div>
 				<h5 class="">Navigation</h5>
 				<p>Home</p>
@@ -493,17 +546,16 @@
 			<h6 class="font-weight-bold">ENEOS GLOBAL</h6>
 			<div>
 				<div class="border-left border-right float-left">
-					<h4><i class="fab fa-facebook-f mx-5 text-warning"></i></h4>
+					<h4><i class="fab fa-facebook-f mx-2 mx-md-5 text-warning"></i></h4>
 				</div>
 				<div class="ml-0 border-right float-left">
-					<h4><i class="fab fa-youtube mx-5 text-danger"></i></h4>
+					<h4><i class="fab fa-youtube mx-2 mx-md-5 text-danger"></i></h4>
 				</div>
 			</div>
 			<h6>&copy; 2017 ENEOS. All Rights Reserved.</h6>
 
 		</div>
-	</section>
-</main>
+	</footer>
 
 	
 	
