@@ -28,7 +28,7 @@ nav a:hover {
 	width: 80px;
 	height: 60px;
 	line-height: 60px;
-	background: url(../../img/40.jpg) no-repeat center;
+	background: url(../img/40.jpg) no-repeat center;
 }
 #navbar div {
 	height: auto;
@@ -62,7 +62,7 @@ header nav a {
 #hero {
 	width: 100%;
 	height: 635px;
-	background:  linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../../img/eneos.jpg) no-repeat center;
+	background:  linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../img/eneos.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -108,7 +108,7 @@ header nav a {
 #home, #abo, #techno, #ser {
 	width: 100%;
 	height: 500px;
-	background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../img/crs.jpg) no-repeat center;
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/crs.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -119,21 +119,21 @@ header nav a {
 #product {
 	width: 100%;
 	height: 450px;
-	background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/sp.jpg) no-repeat center;
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sp.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 
 }
 #abo {
-	background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../img/sp1.jpg) no-repeat center;
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/sp1.jpg) no-repeat center;
 	background-size: cover;
 }
 #techno {
-	background:  linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../img/sp1.jpg) no-repeat center;
+	background:  linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/sp1.jpg) no-repeat center;
 	background-size: cover;
 }
 #ser {
-	background:  linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../../img/40.jpg) no-repeat center;
+	background:  linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/40.jpg) no-repeat center;
 	background-size: cover;
 }
 .page-item.disabled .page-link, .page-link {
