@@ -178,5 +178,10 @@ header nav a {
  	footer .fab {
  		font-size: 15px;
  	}
- 	
+ 	#technoColl img {
+ 		width: 140px;
+ 	}
+ 	#technoColl h5 {
+ 		font-size: 14px;
+ 	}
  }
