@@ -253,15 +253,22 @@ header nav a {
  		width: 270px !important;
  	}
  	#targ div {
- 		width: 30px;
+ 		width: 33px;
+ 		float: left;
  	}
  	
  }
 @media screen and (max-width: 375px) {
+	#logo {
+		display: none;
+	}
 	.card {
 		width: 250px !important;
 	}
 	#lang button {
  		
+ 	}
+ 	#izla {
+ 		font-size: 17px;
  	}
 }
